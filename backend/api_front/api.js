@@ -7,7 +7,7 @@
 const API = (() => {
 
     // ── تعديل الـ BASE_URL لو السيرفر عنده IP مختلف ──
-    const BASE_URL = 'http://192.168.49.2:32588';
+    const BASE_URL = 'http://aef3951ddd01d46c396d9032f03d0159-605476478.us-east-1.elb.amazonaws.com';
 
     // ─────────────────────────────────────────
     // Helpers
