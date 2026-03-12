@@ -1,1 +1,11 @@
 name: version1
+
+on: 
+    workflow_dispatch:
+
+jobs:
+    print-hello-worled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "hello worled"
