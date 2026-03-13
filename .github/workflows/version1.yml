@@ -11,3 +11,8 @@ jobs:
     steps:
       - name: print a welcome massage
         run: echo "welcome github action"
+      - name: checkout repo
+        uses: actions/checkout@v6.0.2
+      - name: list repo file
+        run: ls -la
+      
