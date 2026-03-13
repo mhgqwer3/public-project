@@ -1,11 +1,13 @@
-name: version1
+name: version1 
 
-on: 
-    workflow_dispatch:
-
+on:
+  push:
+    branches:
+      - main
+      
 jobs:
-    print-hello-worled:
-      runs-on: ubuntu-latest
-      steps:
-       - name: print
-         run: echo "hello worled"
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print a welcome massage
+        run: echo "welcome github action"
