@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy context
-        run: echo ${{ toJson(github) }}
+        run: echo ("hello wor")
         
